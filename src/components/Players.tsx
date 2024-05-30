@@ -1,11 +1,9 @@
-import { useState } from "react";
-
 interface PlayersProps {
     // Define any props you need for the component here
 }
 
 const Players: React.FC<PlayersProps> = ({}) => {
-  const [progress, setProgress] = useState<number>(55);
+  const progress: number = 55;
   return (
     <div className="mt-8">
       <div className="grid grid-cols-3">
