@@ -3,7 +3,7 @@ interface PlayersProps {
 }
 
 const Players: React.FC<PlayersProps> = ({}) => {
-  const progress: number = 55;
+  const progress: number = 80;
   return (
     <div className="mt-8">
       <div className="grid grid-cols-3">
