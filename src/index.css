@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: black;
+  background-color: #FFFFFF;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.progress-bar::-webkit-progress-bar {
+  background-color: #f3f3f3; /* Change to your desired background color */
+}
+
+.progress-bar::-webkit-progress-value {
+  background-color: #6151DC; /* Change to your desired progress color */
+}
+
+.progress-bar::-moz-progress-bar {
+  background-color: #6151DC; /* Change to your desired progress color */
+}
